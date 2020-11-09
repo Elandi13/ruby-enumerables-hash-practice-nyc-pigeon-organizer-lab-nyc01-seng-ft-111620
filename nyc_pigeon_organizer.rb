@@ -6,4 +6,8 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         binding.pry
         if !final_arrray[name]
-          final_arrray = {}
+          final_arrray[name] = {}
+        end
+      end
+    end
+    

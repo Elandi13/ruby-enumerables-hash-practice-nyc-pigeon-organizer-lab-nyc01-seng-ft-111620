@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
   value.each do |inner_key, names| 
     names.each do |name|
     binding.pry
+    if !final_array
   end
   end
   final_array

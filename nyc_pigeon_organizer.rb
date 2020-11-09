@@ -2,5 +2,6 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   data.each_with_object ({}) do |{key, value}, final_arrray|
     #binding.pry
-    value.each do 
+    value.each do |inner_key, names|
+      if !final_arrray 
   

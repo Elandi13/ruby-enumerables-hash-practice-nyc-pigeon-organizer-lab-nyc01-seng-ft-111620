@@ -1,4 +1,4 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
-  data.each
+  data.each_with_object
   
